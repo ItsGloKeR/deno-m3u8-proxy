@@ -8,5 +8,5 @@ app.use(cacheRoutes(3600)); // Cache for 1 hour
 app.use(router.routes());
 app.use(router.allowedMethods());
 
-console.log("✅ Deno proxy server running at http://localhost:4040");
-await app.listen({ port: 4040 });
+console.log("✅ Deno proxy server running at http://localhost:8080");
+await app.listen({ port: 8080 });
